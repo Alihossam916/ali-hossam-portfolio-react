@@ -44,6 +44,59 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+.theme-midnight {
+  --radius: 0.625rem;
+  
+  /* Main colors from your palette */
+  --background: #011627;        /* Dark blue background */
+  --foreground: #FFFEFE;        /* White text */
+  --primary: #18F2E5;           /* Cyan/turquoise primary */
+  --primary-foreground: #3C5371; /* Dark text on cyan */
+  
+  /* Derive card colors (slightly lighter than background) */
+  --card: #1a2332;
+  --card-foreground: #FFFEFE;
+  --popover: #1a2332;
+  --popover-foreground: #FFFEFE;
+  
+  /* Secondary uses the gray-blue */
+  --secondary: #3C5371;
+  --secondary-foreground: #FFFEFE;
+  
+  /* Muted (desaturated versions) */
+  --muted: #2a3847;
+  --muted-foreground: #9ca3af;
+  
+  /* Accent uses your cyan */
+  --accent: #18F2E5;
+  --accent-foreground: #011627;
+  
+  /* Destructive (red for errors - add your own or use default) */
+  --destructive: oklch(0.6 0.22 20);
+  
+  /* Borders and inputs (slightly lighter than background) */
+  --border: #3C5371;
+  --input: #3C5371;
+  --ring: #18F2E5;
+  
+  /* Charts - use variations of your colors */
+  --chart-1: #18F2E5;
+  --chart-2: #3C5371;
+  --chart-3: #5a7a9a;
+  --chart-4: #89d4ff;
+  --chart-5: #0dd9cc;
+  
+  /* Sidebar */
+  --sidebar: #011627;
+  --sidebar-foreground: #FFFEFE;
+  --sidebar-primary: #18F2E5;
+  --sidebar-primary-foreground: #011627;
+  --sidebar-accent: #3C5371;
+  --sidebar-accent-foreground: #FFFEFE;
+  --sidebar-border: #3C5371;
+  --sidebar-ring: #18F2E5;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
