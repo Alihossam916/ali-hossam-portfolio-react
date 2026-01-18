@@ -78,7 +78,7 @@ export default function HeroSection() {
           ></circle>
         </svg>
         <img
-          src="/public/images/Gemini_Generated_Image_fue4frfue4frfue4-removebg-preview.png"
+          src="/images/Gemini_Generated_Image_fue4frfue4frfue4-removebg-preview.png"
           alt="developer avatar"
           className="relative z-10 size-44 sm:size-60 md:size-72 lg:size-80 object-contain"
         />
