@@ -18,7 +18,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full py-4 fixed z-50 bg-background-blur backdrop-blur-md">
+    <header className="w-full py-4 sticky top-0 z-50 bg-background">
       <nav className="flex flex-row justify-between items-center px-4 lg:px-8 xl:px-20">
         <a
           href="#heroSection"
