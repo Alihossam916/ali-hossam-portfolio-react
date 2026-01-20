@@ -51,55 +51,55 @@
 
 .theme-midnight {
   --radius: 0.625rem;
-  
+
   /* Main colors from your palette */
-  --background: #011627;        /* Dark blue background */
-  --foreground: #FFFEFE;        /* White text */
-  --primary: #18F2E5;           /* Cyan/turquoise primary */
-  --primary-foreground: #3C5371; /* Dark text on cyan */
-  
+  --background: #011627; /* Dark blue background */
+  --foreground: #fffefe; /* White text */
+  --primary: #18f2e5; /* Cyan/turquoise primary */
+  --primary-foreground: #3c5371; /* Dark text on cyan */
+
   /* Derive card colors (slightly lighter than background) */
   --card: #1a2332;
-  --card-foreground: #FFFEFE;
+  --card-foreground: #fffefe;
   --popover: #1a2332;
-  --popover-foreground: #FFFEFE;
-  
+  --popover-foreground: #fffefe;
+
   /* Secondary uses the gray-blue */
-  --secondary: #3C5371;
-  --secondary-foreground: #FFFEFE;
-  
+  --secondary: #3c5371;
+  --secondary-foreground: #fffefe;
+
   /* Muted (desaturated versions) */
   --muted: #2a3847;
   --muted-foreground: #9ca3af;
-  
+
   /* Accent uses your cyan */
-  --accent: #18F2E5;
+  --accent: #18f2e5;
   --accent-foreground: #011627;
-  
+
   /* Destructive (red for errors - add your own or use default) */
   --destructive: oklch(0.6 0.22 20);
-  
+
   /* Borders and inputs (slightly lighter than background) */
-  --border: #3C5371;
-  --input: #3C5371;
-  --ring: #18F2E5;
-  
+  --border: #3c5371;
+  --input: #3c5371;
+  --ring: #18f2e5;
+
   /* Charts - use variations of your colors */
-  --chart-1: #18F2E5;
-  --chart-2: #3C5371;
+  --chart-1: #18f2e5;
+  --chart-2: #3c5371;
   --chart-3: #5a7a9a;
   --chart-4: #89d4ff;
   --chart-5: #0dd9cc;
-  
+
   /* Sidebar */
   --sidebar: #011627;
-  --sidebar-foreground: #FFFEFE;
-  --sidebar-primary: #18F2E5;
+  --sidebar-foreground: #fffefe;
+  --sidebar-primary: #18f2e5;
   --sidebar-primary-foreground: #011627;
-  --sidebar-accent: #3C5371;
-  --sidebar-accent-foreground: #FFFEFE;
-  --sidebar-border: #3C5371;
-  --sidebar-ring: #18F2E5;
+  --sidebar-accent: #3c5371;
+  --sidebar-accent-foreground: #fffefe;
+  --sidebar-border: #3c5371;
+  --sidebar-ring: #18f2e5;
 }
 
 :root {
@@ -177,5 +177,19 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px; /* Adjust width as needed */
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-sidebar; /* Tailwind track color */
+    border-radius: 100vh;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-sidebar-primary; /* Tailwind thumb color */
+    border-radius: 100vh;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-foreground; /* Tailwind hover color */
   }
 }

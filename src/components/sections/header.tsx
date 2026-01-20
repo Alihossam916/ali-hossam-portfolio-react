@@ -12,13 +12,13 @@ export default function Header() {
 
   const navItems = [
     { href: "#heroSection", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { href: "#skillsSection", label: "Skills" },
+    { href: "#projectsSection", label: "Projects" },
+    { href: "#contactSection", label: "Contact" },
   ];
 
   return (
-    <header className="w-full py-4 sticky top-0 z-50 bg-background">
+    <header className="w-full pt-4 sticky top-0 z-50 bg-background">
       <nav className="flex flex-row justify-between items-center px-4 lg:px-8 xl:px-20">
         <a
           href="#heroSection"

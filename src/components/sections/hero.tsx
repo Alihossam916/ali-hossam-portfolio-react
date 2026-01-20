@@ -3,9 +3,9 @@ import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
-    <div
+    <section
       id="heroSection"
-      className="m-6 xs:m-14 md:m-20 lg:m-28 flex flex-col-reverse md:flex-row justify-between items-center gap-y-16"
+      className="min-h-screen -mt-16 mx-6 xs:mx-14 md:mx-20 lg:mx-28 flex flex-col-reverse md:flex-row justify-between items-center gap-y-16"
     >
       <div className="w-full md:max-w-1/2 flex flex-col justify-center items-start gap-4 bg-radial from-primary/30 from-0% via-40% to-60% to-background">
         <p>
@@ -83,6 +83,6 @@ export default function HeroSection() {
           className="relative z-10 size-44 sm:size-60 md:size-72 lg:size-80 object-contain"
         />
       </div>
-    </div>
+    </section>
   );
 }
