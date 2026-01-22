@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section
       id="heroSection"
-      className="min-h-screen -mt-16 mx-6 xs:mx-14 md:mx-20 lg:mx-28 flex flex-col-reverse md:flex-row justify-between items-center gap-y-16"
+      className="min-h-screen mt-10 md:-mt-16 mx-6 xs:mx-14 md:mx-20 lg:mx-28 flex flex-col-reverse md:flex-row justify-between items-center gap-y-16"
     >
       <div className="w-full md:max-w-1/2 flex flex-col justify-center items-start gap-4 bg-radial from-primary/30 from-0% via-40% to-60% to-background">
         <p>

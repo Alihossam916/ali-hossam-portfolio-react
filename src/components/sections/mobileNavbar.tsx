@@ -17,7 +17,7 @@ export default function MobileNavbar({ isOpen, onClose }: MobileNavbarProps) {
   return (
     <div
       className={`md:hidden fixed w-full bg-background z-40 transition-transform duration-300 ease-in-out ${
-        isOpen ? "translate-y-2.5" : "-translate-y-[150%]"
+        isOpen ? "translate-y-2" : "-translate-y-[150%]"
       }`}
     >
       <ul className="flex flex-col py-8 space-y-6 text-primary-foreground text-lg">
