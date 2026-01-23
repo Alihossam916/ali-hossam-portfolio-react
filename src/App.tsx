@@ -1,8 +1,9 @@
 // page sections
 import Header from "@/components/sections/header";
-import Footer from "@/components/sections/footer";
 import HeroSection from "@/components/sections/hero";
 import SkillsSection from "./components/sections/skills";
+import ProjectsSection from "./components/sections/projects";
+import Footer from "@/components/sections/footer";
 
 import "./index.css";
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeroSection />
       <SkillsSection />
+      <ProjectsSection />
       <Footer />
     </div>
   );
