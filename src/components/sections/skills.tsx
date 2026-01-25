@@ -7,7 +7,7 @@ export default function SkillsSection() {
       id="skillsSection"
       className="min-h-screen m-6 xs:m-14 md:m-20 lg:m-28"
     >
-      <h2 className="text-foreground text-4xl font-semibold mb-10">
+      <h2 className="text-foreground text-4xl text-center md:text-left font-semibold mb-10">
         My Skills
       </h2>
 
