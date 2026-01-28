@@ -13,8 +13,8 @@ function App() {
     <div className="snap-y h-screen overflow-y-scroll scroll-smooth custom-scrollbar">
       <Header />
       <HeroSection />
-      <SkillsSection />
       <ProjectsSection />
+      <SkillsSection />
       <ContactSection />
       <Footer />
     </div>

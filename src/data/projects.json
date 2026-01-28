@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Basket",
+    "description": "A modern, responsive e-commerce web application built with React, Redux Toolkit, React Router, Material-UI, and Tailwind CSS.",
+    "imageUrl": "/images/projects-screenshots/basket-e-commerce.png",
+    "projectDemo": "https://frolicking-macaron-4525b7.netlify.app/",
+    "projectRepo": "https://github.com/Alihossam916/Basket-e-commerce"
+  },
+  {
+    "id": 2,
+    "title": "Time Zone",
+    "description": "An e-commerce web application built with React, React Router, React Query, Formik, and Bootstrap.",
+    "imageUrl": "/images/projects-screenshots/time-zone-e-commerce.png",
+    "projectDemo": "https://stalwart-tarsier-e68417.netlify.app/",
+    "projectRepo": "https://github.com/Alihossam916/Time-Zone-e-commerce"
+  },
+  {
+    "id": 3,
+    "title": "Exclusive",
+    "description": "An e-commerce web application built with vanilla JavaScript, HTML, and CSS, featuring product listings, a shopping cart, and a checkout process.",
+    "imageUrl": "/images/projects-screenshots/exclusive-e-commerce.png",
+    "projectDemo": "https://ecommerce-js-nine.vercel.app/",
+    "projectRepo": "https://github.com/IGiGZI/ecommerce-JS"
+  },
+  {
+    "id": 4,
+    "title": "Burger King clone",
+    "description": "A clone of the Burger King website built with HTML, CSS, and JavaScript, replicating the layout and some functionality of the original site.",
+    "imageUrl": "/images/projects-screenshots/burger-king-clone.png",
+    "projectDemo": "https://alihossam916.github.io/burger-king-website/",
+    "projectRepo": "https://github.com/Alihossam916/burger-king-website"
+  }
+]
