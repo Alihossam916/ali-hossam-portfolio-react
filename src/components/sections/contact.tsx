@@ -87,7 +87,7 @@ export default function ContactSection() {
         </Card>
 
         {/* Contact Info */}
-        <Card className="p-6">
+        <Card className="p-6 overflow-x-scroll xxs:overflow-x-hidden">
           <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
           <div className="space-y-6">
             <div className="flex items-center gap-4">
