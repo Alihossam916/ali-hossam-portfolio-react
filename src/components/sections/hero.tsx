@@ -27,7 +27,7 @@ export default function HeroSection() {
         {/* info buttons */}
         <div className="flex flex-col xxs:flex-row justify-center items-center gap-y-4 gap-x-6">
           <a
-            href="/public/ali-hossam-resume.pdf"
+            href="/ali-hossam-resume.pdf"
             download="Ali_Hossam_Resume.pdf"
           >
             <Button className="text-md font-bold uppercase cursor-pointer transition-colors duration-300">

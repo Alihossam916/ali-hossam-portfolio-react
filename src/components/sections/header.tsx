@@ -50,7 +50,7 @@ export default function Header() {
 
         <div className="flex justify-center items-center gap-x-6">
           <a
-            href="/public/ali-hossam-resume.pdf"
+            href="/ali-hossam-resume.pdf"
             download="Ali_Hossam_Resume.pdf"
             className="hidden xxs:block"
           >

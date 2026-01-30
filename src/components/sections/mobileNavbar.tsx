@@ -32,7 +32,7 @@ export default function MobileNavbar({ isOpen, onClose }: MobileNavbarProps) {
           </>
         ))}
         <a
-          href="/public/ali-hossam-resume.pdf"
+          href="/ali-hossam-resume.pdf"
           download="Ali_Hossam_Resume.pdf"
           className="xxs:hidden w-full px-4"
         >
