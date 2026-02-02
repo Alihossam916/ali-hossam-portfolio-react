@@ -7,7 +7,7 @@ interface MobileNavbarProps {
 }
 
 export default function MobileNavbar({ isOpen, onClose }: MobileNavbarProps) {
-  const navItems = [
+  const navItems: { href: string; label: string }[] = [
     { href: "#heroSection", label: "Home" },
     { href: "#skillsSection", label: "Skills" },
     { href: "#projectsSection", label: "Projects" },

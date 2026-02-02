@@ -10,7 +10,7 @@ import MobileNavbar from "./mobileNavbar";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const navItems = [
+  const navItems: { href: string; label: string }[] = [
     { href: "#heroSection", label: "Home" },
     { href: "#projectsSection", label: "Projects" },
     { href: "#skillsSection", label: "Skills" },
