@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Learnova",
+    "description": "A modern, responsive online learning platform built with Next.js, React, TypeScript, Tailwind CSS, Zustand, and Jest for testing.",
+    "imageUrl": "/images/projects-screenshots/learnova-e-learning.png",
+    "projectDemo": "https://learnova-e-learning.netlify.app/",
+    "projectRepo": "https://github.com/Alihossam916/Learnova-e-learning"
+  },
+  {
+    "id": 2,
     "title": "Basket",
     "description": "A modern, responsive e-commerce web application built with React, Redux Toolkit, React Router, Material-UI, and Tailwind CSS.",
     "imageUrl": "/images/projects-screenshots/basket-e-commerce.png",
@@ -8,7 +16,7 @@
     "projectRepo": "https://github.com/Alihossam916/Basket-e-commerce"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Time Zone",
     "description": "An e-commerce web application built with React, React Router, React Query, Formik, and Bootstrap.",
     "imageUrl": "/images/projects-screenshots/time-zone-e-commerce.png",
@@ -16,7 +24,7 @@
     "projectRepo": "https://github.com/Alihossam916/Time-Zone-e-commerce"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Exclusive",
     "description": "An e-commerce web application built with vanilla JavaScript, HTML, and CSS, featuring product listings, a shopping cart, and a checkout process.",
     "imageUrl": "/images/projects-screenshots/exclusive-e-commerce.png",
@@ -24,7 +32,7 @@
     "projectRepo": "https://github.com/IGiGZI/ecommerce-JS"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Burger King clone",
     "description": "A clone of the Burger King website built with HTML, CSS, and JavaScript, replicating the layout and some functionality of the original site.",
     "imageUrl": "/images/projects-screenshots/burger-king-clone.png",
